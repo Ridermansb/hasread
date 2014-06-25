@@ -1,0 +1,16 @@
+{
+  "name": "HasRead",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Ridermansb/hasread",
+  "authors": [
+    "Ridermansb <ridermansb@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

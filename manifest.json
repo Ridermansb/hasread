@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Has Read",
+  "description": "This extension mark pages as readed",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content_script.js"]
+    }
+  ]
+  ,"permissions": ["tabs", "activeTab"]
+  ,"browser_action": {
+    "default_icon": "icon.png"
+  }
+}
